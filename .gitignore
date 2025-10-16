@@ -28,8 +28,6 @@ captures/
 # Generated
 **/generated/
 
-# First commit: exclude Kotlin sources under app main
-app/src/main/java/**/*.kt
 *.iml
 .gradle
 /local.properties
