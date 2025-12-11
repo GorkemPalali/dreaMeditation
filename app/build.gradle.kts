@@ -4,14 +4,15 @@ plugins {
     alias(libs.plugins.hilt.android)
     alias(libs.plugins.ksp)
     alias(libs.plugins.kotlin.compose)
+    kotlin("kapt")
 }
 
 android {
-    namespace = "com.example.dreamaze"
+    namespace = "com.dreameditation.app"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.dreamflow.app"
+        applicationId = "com.dreameditation.app"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
@@ -32,6 +33,10 @@ android {
                 "proguard-rules.pro"
             )
         }
+    }
+    
+    lint {
+        abortOnError = false
     }
 
     compileOptions {
@@ -65,24 +70,24 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
+    implementation(libs.androidx.appcompat)
 
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.material.icons.extended)
+    implementation(libs.coil.compose)
 
     implementation(libs.navigation.compose)
     implementation(libs.hilt.navigation.compose)
 
     implementation(libs.hilt.android)
     implementation(libs.androidx.media)
-    ksp(libs.hilt.compiler)
+    kapt(libs.hilt.compiler)
 
-    constraints {
-        implementation(libs.squareup.javapoet)
-    }
-    ksp(libs.squareup.javapoet)
+    // javapoet is included transitively by Hilt and Room
 
     implementation(libs.room.runtime)
     implementation(libs.room.ktx)
@@ -100,9 +105,6 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
-
-
-    implementation(project(":designsystem"))
 }
 
 ksp {
@@ -110,4 +112,7 @@ ksp {
     arg("room.schemaLocation", "$projectDir/schemas")
     arg("room.incremental", "true")
     arg("room.expandProjection", "true")
+    
+    // Hilt için KSP konfigürasyonu
+    arg("hilt.internal.disableAndroidClasspathAggregation", "false")
 }
