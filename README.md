@@ -96,19 +96,23 @@ The app uses the following build variants:
 <div align="center">
 
 ### Home Screen
-![Home Screen](screenshots/home.png)
+<img src="screenshots/home.png" alt="Home Screen" width="300"/>
+
 *Discover meditation and sleep sessions with personalized recommendations*
 
 ### Audio Library
-![Audio Library](screenshots/library.png)
+<img src="screenshots/library.png" alt="Audio Library" width="300"/>
+
 *Browse curated audio tracks organized by categories*
 
 ### Session Screen
-![Session Screen](screenshots/session.png)
+<img src="screenshots/session.png" alt="Session Screen" width="300"/>
+
 *Active playback with dream guidance and hypnagogic keywords*
 
 ### Profile
-![Profile](screenshots/profile.png)
+<img src="screenshots/profile.png" alt="Profile" width="300"/>
+
 *Track your progress, manage settings, and view statistics*
 
 </div>
