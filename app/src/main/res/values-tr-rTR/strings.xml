@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name" translatable="false">dreaMeditation</string>
+    <!-- Home -->
+    <string name="home_welcome">dreaMeditation ye hoş geldiniz</string>
+    <string name="home_subtitle">Huzurlu bir uyku veya meditasyona hazır mısın?</string>
+    <string name="home_quick_start">Hızlı Başlangıç</string>
+    <string name="home_meditation_title">Meditasyon</string>
+    <string name="home_meditation_subtitle">Sakinliğini bul</string>
+    <string name="home_sleep_title">Uyku Seansı</string>
+    <string name="home_sleep_subtitle">Daha hızlı uykuya dal</string>
+    <string name="home_recently_played">Son Çalınanlar</string>
+    <string name="home_view_all">Tümünü Gör</string>
+    <string name="home_recommended">Önerilenler</string>
+    <string name="home_progress">İlerleyişin</string>
+    <string name="home_last_sessions">Son Seanslar</string>
+    <string name="label_sleep">Uyku</string>
+    <string name="label_meditation">Meditasyon</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profil</string>
+    <string name="profile_member_since">%1$s tarihinden beri üye</string>
+    <string name="profile_your_stats">İstatistiklerin</string>
+    <string name="stat_total_sessions">Toplam Seans</string>
+    <string name="stat_sleep_hours">Uyku Saatleri</string>
+    <string name="stat_meditation_streak">Meditasyon Serisi</string>
+    <string name="stat_days_suffix">%1$d gün</string>
+
+    <!-- Library -->
+    <string name="library_title">Ses Kütüphanesi</string>
+    <string name="library_search_placeholder">Parça ara...</string>
+    <string name="library_all">Tümü</string>
+
+    <!-- Session Duration -->
+    <string name="duration_title">Seans Süresi</string>
+    <string name="duration_pick_prompt">Seans süresini seç</string>
+    <string name="duration_30min">30 dakika</string>
+    <string name="duration_1h">1 saat</string>
+    <string name="duration_3h">3 saat</string>
+    <string name="start_session">Meditasyonu Başlat</string>
+    <string name="back">Geri</string>
+
+    <!-- Session Screen -->
+    <string name="session_sleep">Uyku Seansı</string>
+    <string name="session_meditation">Meditasyon Seansı</string>
+    <string name="section_volume">Ses Seviyesi</string>
+    <string name="section_dream_guidance">Rüya Yönlendirme</string>
+    <string name="hypnagogic_keywords">Hipnagojik Anahtar Kelimeler</string>
+    <string name="hypnagogic_keywords_placeholder">Rüya anahtar kelimelerini gir...</string>
+    <string name="keyword_subtext">Anahtar kelimeler hipnagogoik sürece geçtiğinizde çalınacak.</string>
+    <string name="test_tts_now">TTS Testi</string>
+    <string name="section_session_timer">Seans Zamanlayıcı</string>
+    <string name="auto_stop">Otomatik Durdur</string>
+    <string name="session_will_end_after">Seans %1$d dakika sonra bitecek</string>
+
+    <!-- Settings / Profile localized texts -->
+    <string name="settings">Ayarlar</string>
+    <string name="settings_language">Uygulama Dili</string>
+    <string name="chip_turkish">Türkçe</string>
+    <string name="chip_english">English</string>
+    <string name="settings_notifications_title">Bildirimler</string>
+    <string name="settings_notifications_subtitle">Bildirim tercihlerini yönet</string>
+    <string name="settings_audio_quality_title">Ses Kalitesi</string>
+    <string name="settings_audio_quality_subtitle">Yüksek kalite (192kbps)</string>
+    <string name="settings_hypnagogic_title">Hipnagojik Ayarlar</string>
+    <string name="settings_hypnagogic_subtitle">Rüya yönlendirmesini yapılandır</string>
+    <string name="settings_privacy_title">Gizlilik</string>
+    <string name="settings_privacy_subtitle">Veri ve gizlilik ayarları</string>
+    <string name="about">Hakkında</string>
+    <string name="about_app_version_title">Uygulama Sürümü</string>
+    <string name="about_terms_title">Hizmet Koşulları</string>
+    <string name="about_terms_subtitle">Şartlarımızı ve koşullarımızı okuyun</string>
+    <string name="about_privacy_title">Gizlilik Politikası</string>
+    <string name="about_privacy_subtitle">Verilerinizi nasıl koruyoruz</string>
+    <string name="about_support_title">Destek</string>
+    <string name="about_support_subtitle">Yardım alın ve bize ulaşın</string>
+    <string name="stat_favorite_category">Favori Kategori</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_name_default">Kullanıcı</string>
+    <string name="profile_edit">Düzenle</string>
+    <string name="avatar_chosing">Avatarı Düzenle</string>
+    <string name="profile_name_dialog_title">Profil Adını Düzenle</string>
+    <string name="profile_name_dialog_hint">Adınızı girin</string>
+    <string name="profile_name_dialog_save">Kaydet</string>
+    <string name="profile_name_dialog_cancel">İptal</string>
+    <string name="app_settings">Uygulama Ayarları</string>
+    <string name="account_settings">Hesap Ayarları</string>
+    <string name="change_password">Parolayı Değiştir</string>
+    <string name="politics">Gizlilik Politikası</string>
+    <string name="log_out">Çıkış Yap</string>
+    <string name="notifications">Bildirimler</string>
+    <string name="language">Dil</string>
+
+    <!-- Language Selection Dialog -->
+    <string name="language_dialog_title">Uygulama Dili Seç</string>
+    <string name="language_dialog_save">Kaydet</string>
+    <string name="language_dialog_cancel">İptal</string>
+    <string name="language_turkish_full">Türkçe</string>
+    <string name="language_english_full">English</string>
+    <string name="language_current_selection">Mevcut: %1$s</string>
+
+    <!-- Navigation Bar -->
+    <string name="home_nav">Ana Sayfa</string>
+    <string name="meditation_nav">Meditasyon</string>
+    <string name="sleep_nav">Uyku</string>
+    <string name="profile_nav">Profil</string>
+
+    <!-- Meditation Screen -->
+    <string name="meditation_header">Meditasyon</string>
+    <string name="meditation_text">İç huzurunuza erişin</string>
+    <string name="quickstart_section_header_title">Hızlı Başlangıç</string>
+    <string name="meditation_action_card_title1">5 Dk</string>
+    <string name="meditation_action_card_subtitle1">Hızlı Sakinleşme</string>
+    <string name="meditation_action_card_title2">15 Dk</string>
+    <string name="meditation_action_card_subtitle2">Derin Odaklanma</string>
+    <string name="meditation_action_card_title3">30 Dk</string>
+    <string name="meditation_action_card_subtitle3">Tam Seans</string>
+    <string name="meditation_section_header_categories">Kategoriler</string>
+    <string name="meditation_section_header_programs">Programlar</string>
+    <string name="program_card_title1">7 Gün Doğal Sakinleşme</string>
+    <string name="program_card_description1">Tutarlı bir meditasyon pratiği oluşturun</string>
+    <string name="program_card_duration1">7 gün</string>
+    <string name="program_card_title2">Stres Giderme</string>
+    <string name="program_card_description2">Günlük stres yönetim teknikleri</string>
+    <string name="program_card_duration2">14 gün</string>
+
+    <!-- Audio Library -->
+    <string name="library_showing_meditation">Meditasyon parçaları gösteriliyor</string>
+    <string name="library_showing_sleep">Uyku parçaları gösteriliyor</string>
+    <string name="library_category_all">Tümü</string>
+    <string name="library_categories">Kategoriler</string>
+    <string name="library_tracks">Parçalar</string>
+    <string name="library_no_tracks">Parça bulunamadı</string>
+
+    <!-- Dream Guidance Test -->
+    <string name="dream_guidance_test_title">Rüya Yönlendirme Testi</string>
+    <string name="dream_guidance_test_subtitle">Rüya anahtar kelimelerinizi mevcut dilde test edin</string>
+    <string name="dream_guidance_test_button">Rüya Yönlendirmesini Test Et</string>
+    <string name="dream_guidance_test_keywords">huzur, sakinlik, uyku, rüya</string>
+    <string name="dream_guidance_test_keywords_placeholder">Test etmek için anahtar kelimeler girin (virgülle ayrılmış)</string>
+    <string name="dream_guidance_test_dialog_title">Rüya Yönlendirmesini Test Et</string>
+    <string name="dream_guidance_test_dialog_hint">Anahtar kelimeleri virgülle ayırarak girin</string>
+    <string name="dream_guidance_test_dialog_test">Şimdi Test Et</string>
+    <string name="dream_guidance_test_dialog_cancel">İptal</string>
+</resources>
+

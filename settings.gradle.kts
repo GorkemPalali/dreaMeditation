@@ -21,5 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "dreaMeditation"
 include(":app")
-include(":designsystem")
  
